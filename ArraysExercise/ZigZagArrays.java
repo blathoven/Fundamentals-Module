@@ -34,29 +34,3 @@ public class ZigZagArrays {
         }
     }
 }
-
-
-//        int command = Integer.parseInt(scanner.nextLine());
-//        int[] firstLine = new int[command];
-//        int[] secondLine = new int[command];
-//
-//        for (int i = 0; i < command; i++) {
-//            int[] currentElements = Arrays.stream(scanner.nextLine().split(" ")).mapToInt(Integer::parseInt)
-//                    .toArray();
-//
-//            if (i % 2 == 0) {
-//                firstLine[i] += currentElements[0];
-//                secondLine[i] += currentElements[1];
-//            } else {
-//                firstLine[i] += currentElements[1];
-//                secondLine[i] += currentElements[0];
-//            }
-//        }
-//
-//        for (int fLine : firstLine) {
-//            System.out.printf("%d ", fLine);
-//        }
-//        System.out.println();
-//        for (int sLine : secondLine) {
-//            System.out.printf("%d ", sLine);
-//        }
